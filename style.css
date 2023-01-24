@@ -1,0 +1,40 @@
+body
+{
+ 
+    display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+ background-image: url(https://www.color-meanings.com/wp-content/uploads/2022/02/Pink_explosion_on_black_background-1536x1024.jpeg);
+  background-position-x: center;
+}
+img{
+    height:400px
+}
+.card
+{
+    height:500px;
+    margin:90px;
+    box-shadow: 5px 5px 10px;
+    overflow: hidden;
+}
+
+.main
+{
+    height: 200px;
+    box-sizing: border-box;
+    
+    padding: 5px;
+    background: rgb(106, 103, 103);
+    color: aliceblue;
+    
+}
+h2:hover 
+{
+    color: rgb(24, 22, 24);
+    
+}
+img:hover
+{
+    box-shadow: 5px 5px 15px;
+}
